@@ -33,7 +33,7 @@ mean(totalsteps, na.rm=TRUE)
 ```
 
 ```
-## [1] 10766.19
+## [1] 9354.23
 ```
 
 ```r
@@ -41,7 +41,7 @@ median(totalsteps, na.rm=TRUE)
 ```
 
 ```
-## [1] 10766.19
+## [1] 10395
 ```
 
 The mean and the median is 9354.23 and 10395 respectively.
@@ -67,7 +67,7 @@ intaveragesteps[which.max(intaveragesteps$averagesteps), ]
 
 ```
 ##     interval averagesteps
-## 104      835     184.0338
+## 104      835     206.1698
 ```
 
 The 5-minute interval, on average across all days in the dataset, that contains the maximum number of steps is 835.
@@ -82,7 +82,7 @@ The 5-minute interval, on average across all days in the dataset, that contains 
 ```
 
 ```
-## [1] 0
+## [1] 2304
 ```
 
 The total number of missing values in the dataset is 2304.
